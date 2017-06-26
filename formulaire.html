@@ -11,8 +11,8 @@
 
         <form class="form">
             <!-- le pseudo -->
-            <label for="pseudo">Pseudo</label>
-            <input class="input_form" type="text" name="pseudo" placeholder="votre pseduo"size="10"required> <br>
+            <label for="pseudo" >Pseudo</label>
+            <input class="input_form" type="text" name="pseudo" placeholder="votre pseduo" size="20" required> <br>
 
             <!-- mot de passe  -->
             <label for="mdp">Mot de passe</label>
@@ -20,11 +20,11 @@
 
             <!-- email -->
             <label for="Email">Email</label>
-            <input class="input_form" type="email" name="email" placeholder="Votre email"> <br>
+            <input class="input_form" type="email" name="email" placeholder="Votre email"> <br> <br>
 
             <!-- fichier -->
             <label for="photo">Photo</label>
-            <input type="file"name="photo"> <br> <br>
+            <input type="file" name="photo"> <br> <br>
 
             <!-- case à cocher -->
             <label for="question">Quelle destination choisissez-vous ? </label>
@@ -36,13 +36,15 @@
             </p>
 
             <!-- zone de texte -->
-            <label for="commentaire">Commentaire</label> <br>
-            <textarea class="input_form" name="commentaire" rows="8" cols="80" placeholder="Votre commentaire"></textarea> <br>
+            <label for="commentaire">Commentaire</label>
+            <textarea class="input_form" name="commentaire" rows="8" cols="40" placeholder="Votre commentaire"></textarea> <br>
 
-            <!-- button envoi du formulaire -->
-            <input id="button1" type="submit" name="inscrption" value="Envoyer">
-            <!-- button pour réinitialiser le formulaire -->
-            <input id="button2"type="reset" name="annuler" value="Reset">
+            <div id="button">
+                <!-- button envoi du formulaire -->
+                <input id="button1" type="submit" name="inscrption" value="Envoyer">
+                <!-- button pour réinitialiser le formulaire -->
+                <input id="button2" type="reset" name="annuler" value="Reset">
+            </div>
 
     </form>
 
