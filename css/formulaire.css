@@ -1,0 +1,60 @@
+body {
+    background: -webkit-linear-gradient(#abbaab, #ffffff);
+    background: -o-linear-gradient(#abbaab, #ffffff);
+    background: linear-gradient(#abbaab, #ffffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size: 19px;
+
+
+
+}
+
+.input_form {
+    line-height: 24px !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size: 19px;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 2px solid #ccc;
+    border-width: 1px !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-style: solid !important;
+
+}
+
+.input_form:focus {
+    border: 1px solid red;
+}
+
+label {
+    float: left;
+    width: 190px;
+}
+
+#button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+}
+
+#button2 {
+    background-color: #f44336;; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

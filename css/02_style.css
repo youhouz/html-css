@@ -1,0 +1,48 @@
+* {
+    text-align: center;
+
+}
+
+
+body {
+    background: linear-gradient(#00C9FF, #92FE9D); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background: red;
+    height: 100px;
+}
+
+section {
+    background: pink;
+    color: white;
+    height: 40px;
+}
+
+nav {
+    background: yellow;
+    color: red;
+    height: 120px;
+}
+
+article {
+    background: purple;
+    height: 250px;
+}
+
+footer {
+    background: black;
+    height: 80px;
+
+}
+
+footer, article {
+    color: white;
+}
+
+/*je cible une class avec un point devant*/
+.jaune {
+    background-color: black;
+}
