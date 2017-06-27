@@ -1,0 +1,7 @@
+.contenu {
+    background: linear-gradient(to left, #40a497, rgb(153, 39, 194));
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    border-radius: 50% ;
+}
