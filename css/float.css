@@ -1,0 +1,31 @@
+body {
+    background: -webkit-linear-gradient(rgb(43, 54, 147), rgb(17, 174, 207));
+    background: -o-linear-gradient(rgb(43, 54, 147), rgb(17, 174, 207));
+    background: linear-gradient(rgb(43, 54, 147), rgb(17, 174, 207));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.c1, .c2 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid ;
+    margin : 2px;
+    float: left;
+    border-radius: 20%;
+}
+
+.clear {
+    clear: both;
+}
+
+.c1 {
+    background: rgb(236, 106, 106);
+}
+
+.c2 {
+    background: rgb(41, 201, 91);
+}

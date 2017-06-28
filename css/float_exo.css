@@ -1,0 +1,49 @@
+body {
+    font-size: 14px;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6 {
+    height: 150px;
+    width: 150px;
+    float: left;
+    text-align: center;
+    margin: 3px;
+    border: 1px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.c1 {
+    background: rgb(106, 236, 123);
+    border-radius: 5px 10px 15px 20px;
+}
+
+
+.c2 {
+    background: rgb(41, 173, 201);
+    border-radius: 15px 0 15px 0px;
+}
+
+.c3 {
+    background: rgb(9, 17, 92);
+    border-radius: 50%;
+}
+
+.c4 {
+    background: rgb(238, 107, 131);
+    border-radius: 15px 30px 15px 30px;
+}
+
+section div:nth-child(18) {
+    background: red;
+    border-radius: 15px 30px 15px 30px;
+}
+
+.c6 {
+    background: white;
+    color: white;
+    border-color: white;
+}
