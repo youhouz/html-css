@@ -27,7 +27,6 @@ section {
 .a, .b, .c, .d, .e, .f, .g, .h {
     float: left;
     height: 250px;
-    
 }
 
 .a, .c, .h, .e, .g {
