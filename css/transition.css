@@ -260,3 +260,8 @@ ul.liste li {
     .right .change ul:hover li:first-child { */ au survol de la souris on selectionne le premier <li> de la liste <ul> ayant la class .change, elle meme enfant de la class .right*/
         background-color: #000;
     }
+
+
+iframe {
+    margin: 0 0 25px 24px;
+}
